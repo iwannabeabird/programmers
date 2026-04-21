@@ -12,7 +12,7 @@ public class TestClass {
         int length = board.length;
         for(int i=0; i<length; i++) { // 열별(줄)로 담음
         	Stack<Integer> stack = new Stack<>();
-	        for(int j = length-1; j > 0; j--) {
+	        for(int j = length-1; j >= 0; j--) {
 	        	if(board[j][i] == 0) {
 	        		break;
 	        	}
