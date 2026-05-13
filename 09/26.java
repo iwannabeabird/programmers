@@ -27,11 +27,8 @@ public class Main {
             if ((big%2 == 0) && (small%2==1) && (big-small == 1)) {
                 break;
             }
-                small = (small % 2 == 1) ? (small + 1) / 2 : small / 2;
-
-
-                big = (big % 2 == 1) ? (big + 1) / 2 : big / 2;
-
+            small = (small % 2 == 1) ? (small + 1) / 2 : small / 2;
+            big = (big % 2 == 1) ? (big + 1) / 2 : big / 2;
 
             answer++;
         }
